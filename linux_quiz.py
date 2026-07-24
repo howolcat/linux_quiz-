@@ -4,8 +4,8 @@ score = 0
 def printquiz(x):
     if x == 0:
         print(quiz_list[0])
-        y = input("정답을 적어주세요")
-        if y == good1 :
+        y = input("정답을 적어주세요 :")
+        if y in good1 :
             print("정답!")
             return True
         else :
@@ -13,8 +13,8 @@ def printquiz(x):
             return False
     elif x == 1:
         print(quiz_list[1])
-        y = input("정답을 적어주세요")
-        if y == good2 :
+        y = input("정답을 적어주세요 :")
+        if y in good2 :
             print("정답!")
             return True
         else :
@@ -22,8 +22,8 @@ def printquiz(x):
             return False
     elif x == 2:
         print(quiz_list[2])
-        y = input("정답을 적어주세요")
-        if y == good3 :
+        y = input("정답을 적어주세요 :")
+        if y in good3 :
             print("정답!")
             return True
         else :
@@ -31,8 +31,8 @@ def printquiz(x):
             return False
     elif x == 3:
         print(quiz_list[3])
-        y = input("정답을 적어주세요")
-        if y == good4 :
+        y = input("정답을 적어주세요 :")
+        if y in good4 :
             print("정답!")
             return True
         else :
@@ -40,8 +40,8 @@ def printquiz(x):
             return False
     elif x == 4:
         print(quiz_list[4])
-        y = input("정답을 적어주세요")
-        if y == good5 :
+        y = input("정답을 적어주세요 :")
+        if y in good5 :
             print("정답!")
             return True
         else :
@@ -89,25 +89,11 @@ while True:
                 print("등급 C")
             else  :
                 print("등급 F")
+            break
     else :
         print("Bye bye ~")
+        break
 
-
-
-
-
-
-
-# def getmemberName(x : {__eq__}):
-#     if x == "에스파":
-#         return ["카리나", "윈터", "~~~"]
-#     elif x == "소녀시대":
-#         return ["태연", "서현", "윤아"]
-#     elif x == "에이티즈":
-#         return ["최산", "김산", "이산"]
-#
-# result = getmemberName("에이티즈")
-# print(result)
 
 
 
